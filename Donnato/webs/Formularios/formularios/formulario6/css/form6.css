@@ -1,0 +1,145 @@
+/* Reset */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f3f3f3; /* Fondo gris claro */
+}
+
+h1, h2, h3, h4, h5 {
+	color: #333;
+}
+
+p, label {
+	color: #555; /* Texto gris un poco más oscuro */
+}
+
+input {
+	border: 1px solid transparent;
+	border-bottom: 1px solid #ccc; /* Línea inferior más suave */
+	padding: 10px 0px;
+}
+
+input[type=text], input[type=number], input[type=date], input[type=file] {
+	width: 70%;
+}
+
+textarea {
+	padding: 10px 5px;
+	width: 70%;
+}
+
+/* Encabezado de la página */
+.header {
+	height: 160px;
+	padding: 20px;
+	background-color: #4a90e2; /* Fondo azul moderno */
+}
+
+.header h3 {
+	color: #fff; /* Texto blanco */
+	margin-top: 0;
+}
+
+/* Contenedor del formulario */
+.form-container {
+	background-color: #fff;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -62px;
+}
+
+/* Encabezado del formulario */
+.form-header {
+	border-bottom: 1px solid #dfdfdf; /* Línea inferior más suave */
+	height: 45px;
+}
+
+.form-header p {
+	color: #4a90e2; /* Texto azul moderno */
+	border-bottom: 2px solid #4a90e2; /* Línea inferior en tono azul */
+	width: 100px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	text-transform: uppercase;	
+	height: 45px;
+	line-height: 45px;
+}
+
+/* Cuerpo del formulario */
+.form-body {
+	padding: 30px;
+}
+
+.form-title {
+	margin: 0;
+}
+
+.required-field {
+	color: #e74c3c; /* Texto rojo moderno para campos obligatorios */
+}
+
+.box-input {
+	margin-bottom: 30px;
+}
+
+.block {
+	display: block;
+}
+
+.optional_box {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.optional_list {
+	padding-left: 0;
+}
+
+.optional_list li {
+	list-style: none;
+}
+
+.btn-submit {
+	background-color: #4a90e2; /* Botón de fondo azul moderno */
+	color: #fff;
+	border: 2px solid transparent;
+	width: 150px;
+	height: 50px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.btn-submit:hover {
+	background-color: #fff; /* Botón blanco al pasar el mouse */
+	border-color: #4a90e2; /* Borde azul al pasar el mouse */
+	color: #4a90e2; /* Texto azul al pasar el mouse */
+}
+.button__fixed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:30px;
+    background-color: #dddddd;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    right: 30px;
+    cursor: pointer;
+    border-radius: 100%;
+    box-shadow: 0 0 6px rgba(12, 12, 12, 0.5);
+}
+
+.button__fixed a{
+    text-decoration: none;
+    color: #151515;
+}
+
+.btn__left{
+    left:30px;
+}

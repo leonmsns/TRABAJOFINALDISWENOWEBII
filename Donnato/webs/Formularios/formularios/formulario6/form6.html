@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario de Contacto</title>
+		<link rel="stylesheet" type="text/css" href="css/form6.css"/>
+		<script src="https://kit.fontawesome.com/cea33d77ef.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h3>Complete el formulario de contacto</h3>
+			</div>
+			<div class="form-container">
+				<div class="form-header">
+					<p>Formulario</p>
+				</div>
+				<div class="form-body">
+					<h1 class="form-title">Formulario de Contacto</h1>
+					<p>Por favor, complete el siguiente formulario para ponerse en contacto con nosotros.</p>
+					<form>
+						<div class="box-input">
+							<label for="name">Nombre: 
+								<span class="required-field">*</span>
+							</label>
+							<input type="text" name="name" id="name" class="block" placeholder="Ingrese su nombre" minlength="1" maxlength="30" required>
+						</div>
+						<div class="box-input">
+							<label for="email">Correo Electrónico:
+								<span class="required-field">*</span>
+							</label>
+							<input type="email" id="email" name="email" class="block" required>
+						</div>
+						<div class="box-input">
+							<label for="message">Mensaje: 
+								<span class="required-field">*</span>
+							</label>
+							<textarea id="message" name="message" class="block" cols="30" rows="10" required placeholder="Escriba su mensaje aquí"></textarea>
+						</div>
+						<input type="submit" class="btn-submit" value="Enviar">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="btn__left button__fixed">
+			<a href="../formulario5/form5.html">
+				<i class="fa-solid fa-left-long"></i>
+			</a>
+		</div>
+	
+		<div class="btn__right button__fixed">
+			<a href="../formulario7/form7.html">
+				<i class="fa-solid fa-right-long"></i>
+			</a>
+		</div>
+	</body>
+</html>

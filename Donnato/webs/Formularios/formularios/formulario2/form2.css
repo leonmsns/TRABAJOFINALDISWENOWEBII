@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#title, #subtitle {
+  font-family: sans-serif;
+  color: #4A90E2; /* Azul moderno */
+}
+
+#subtitle {
+  font-size: 13.5px;
+}
+
+#title {
+  margin-left: 7%;
+}
+
+#subtitle {
+  margin-left: 10%;
+}
+
+fieldset {
+  border: 0;
+}
+
+fieldset .grupo .campo {
+  float: left;
+  margin-right: 1em;
+}
+
+body {
+  background-color: #F0F8FF; /* Azul claro */
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #4A90E2; /* Azul moderno */
+  margin-left: 36%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+input, select, textarea, button {
+  border-radius: 5px;
+}
+
+.campo {
+  margin-bottom: .7em;
+}
+
+.campo label {
+  margin-bottom: .2em;
+  color: #4A90E2; /* Azul moderno */
+  display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+  padding: .2em;
+  border: 1px solid #4A90E2; /* Azul moderno */
+  box-shadow: 2px 2px 2px #4A90E2; /* Azul moderno */
+  display: block;
+}
+
+.campo select option {
+  padding-right: 1em;
+  color: #4A90E2; /* Azul moderno */
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+  background: #E0E0F8;
+}
+
+#checkbox {
+  display: inline-block;
+}
+
+textarea {
+  width: 37em;
+}
+
+.button {
+  font-size: 1.1em;
+  background: #4A90E2; /* Azul moderno */
+  border: 0;
+  margin-bottom: 1em;
+  color: #FFFFFF;
+  padding: .2em;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 2px #4A90E2; /* Azul moderno */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background: #66B0FF; /* Azul claro al pasar el mouse */
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+}
+.button__fixed{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom:30px;
+  background-color: #dddddd;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  right: 30px;
+  cursor: pointer;
+  border-radius: 100%;
+  box-shadow: 0 0 6px rgba(12, 12, 12, 0.5);
+}
+
+.button__fixed a{
+  text-decoration: none;
+  color: #151515;
+}
+
+.btn__left{
+  left:30px;
+}

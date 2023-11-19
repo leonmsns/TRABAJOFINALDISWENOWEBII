@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b4d455;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabla {
+    /* margin: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.container h2 {
+    font-size: 2rem;
+}
+
+.container h2 span {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-family: Montserrat, sans-serif;
+}
+
+/* TABLE STYLE */
+
+table {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+thead {
+    background-color: rgb(220, 218, 218);
+}
+
+tfoot {
+    background-color: rgb(220, 218, 218);
+}
+
+.table {
+    width: 50%;
+    border-collapse: collapse;
+    background-color: yellow;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+
+}
+.table th, .table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.table th {
+    background-color: #f2f2f2;
+}
+
+h2{
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 750px){
+    .table{
+        width: 50%;
+        height: 50%;
+        font-size: 70%;
+    }
+    @media only screen and (max-width: 350px){
+        .table{
+            width: 50%;
+            height: 50%;
+            font-size: 40%;
+        }
+    }
+}

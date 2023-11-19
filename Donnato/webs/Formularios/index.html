@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de login" />
+    <meta name="keywords" content="pagina, login, usuario, senha" />
+    <meta name="author" content="Wesley Victor Pereira Silva" />
+    <title>Formulario de login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/cea33d77ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form action="#" method="post" autocomplete="off" class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__title">Login</legend>
+            <label for="user" class="form__label">Usuario</label>
+            <input type="text" id="user" name="user" required class="form__input" />
+            <label for="password" class="form__label">Contraseña</label>
+            <input type="password" id="password" name="password" required class="form__input" />
+            <div class="form__action">
+                <input type="submit" value="Login" class="btn btn-primary" />
+                <a href="registro.html" class="btn btn-secondary">Registrarse</a>
+                <a href="#" class="form__action__aside">Olvidé mi contraseña</a>
+            </div>
+        </fieldset>
+    </form>
+    <div class="btn__left button__fixed">
+        <a href="https://leonmsnsfinal.vercel.app">
+            <i class="fa-solid fa-house"></i>
+        </a>
+    </div>
+
+    <div class="btn__right button__fixed">
+        <a href="formularios/formulario2/form2.html">
+            <i class="fa-solid fa-right-long"></i>
+        </a>
+    </div>
+</body>
+
+</html>

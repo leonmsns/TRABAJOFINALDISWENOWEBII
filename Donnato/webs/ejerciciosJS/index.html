@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <form id="formulario">
+        <label for="dist">Distancia:</label>
+        <input type="number" id="dist" required>
+        
+        <label for="time">Tiempo:</label>
+        <input type="number" id="time" required>
+
+        <button onclick="calcularDivision()">Calcular Velocidad</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <hr>
+
+    <h2>Calcular Edad</h2>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" required>
+
+    <button onclick="getEdad()">Calcular Edad</button>
+
+    <p id="resultado2"></p>
+    <img id="imagenEdad" src="">
+
+    <hr>
+
+    <h2>Calcular IVA</h2>
+
+    <label for="precio">Precio sin IVA:</label>
+    <input type="number" id="precio" required>
+
+    <label for="iva">Porcentaje de IVA:</label>
+    <input type="number" id="iva" required>
+
+    <button onclick="calcularIVA()">Calcular IVA</button>
+
+    <p id="resultado3"></p>
+
+    <script src="js.js"></script>
+</body>
+</html>

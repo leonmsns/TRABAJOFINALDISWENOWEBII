@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas DM</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <script src='https://cdn.tailwindcss.com'></script>
+    <script src='https://kit.fontawesome.com/cea33d77ef.js' crossorigin='anonymous'></script>
+    <style media='all' id='fa-v4-font-face'></style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2><span> Tabla Medidas MP3</span></h2>
+
+        </div>
+        <div class="tabla">
+            <table class="border border-black" cellspacing="5" cellpadding="7">
+                <thead class="border border-black">
+                    <tr>
+                        <th class="border border-black">Tipo</t>
+                        <th class="border border-black">Unidad</th>
+                        <th class="border border-black">Valor</th>
+                        <th class="border border-black">Caracteristicas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-black">Absoluta</td>
+                        <td class="border border-black">px</td>
+                        <td class="border border-black">1px = 0.26mm</td>
+                        <td class="border border-black">x</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black" rowspan="5">Relativas</td>
+                        <td class="border border-black">em</td>
+                        <td class="border border-black">1em = +-16px</td>
+                        <td class="border border-black">Fuente establecida por el navegador</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black">ex</td>
+                        <td class="border border-black">1/2 em</td>
+                        <td class="border border-black">Idemanterior</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black">ch</td>
+                        <td class="border border-black">
+                            < cero width >
+                        </td>
+                        <td class="border border-black">Tamaño del ancho 0</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black">Rem</td>
+                        <td class="border border-black">(noot:em)</td>
+                        <td class="border border-black">Personalizado. Es fijo</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black">%</td>
+                        <td class="border border-black">(heredables)</td>
+                        <td class="border border-black">Relativo al elemento padre</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black" rowspan="5">Flexibles</td>
+                        <td class="border border-black">vw</td>
+                        <td class="border border-black">viewport width</td>
+                        <td class="border border-black">1vw 1% del ancho navegador</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black">vh</td>
+                        <td class="border border-black">viewport height</td>
+                        <td class="border border-black">1vh 1% del alto del navegador</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black">vmin</td>
+                        <td class="border border-black">viewport minimun</td>
+                        <td class="border border-black">1vh establece el ancho minimo</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black">vmax</td>
+                        <td class="border border-black">viewport maximun</td>
+                        <td class="border border-black">1vh establece el ancho maximo</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-black">fr</td>
+                        <td class="border border-black">Fnaction</td>
+                        <td class="border border-black">1vh establece 1 parte del navegador, se utiliza grid</td>
+                    </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Depende de la medida del dispositivo</td>
+                    </tr>
+                </tfoot>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="title">
+            <h2>Tabla comparativa de las características técnicas de los reproductores MP3</h2>
+        </div>
+    
+    <table class="table">
+        <tr>
+            <th>Modelo</th>
+            <th>Tamaño de Almacenamiento</th>
+            <th>Cantidad de Canciones</th>
+            <th>Tamaño de Pantalla</th>
+            <th>Tiempo de Carga</th>
+            <th>Tiempo para alcanzar el 80% de la capacidad</th>
+        </tr>
+        <tr>
+            <td>MP3 mini 4GB</td>
+            <td>4GB</td>
+            <td>1,000 canciones</td>
+            <td>3cm (diagonal)</td>
+            <td>3 horas</td>
+            <td>2 horas</td>
+        </tr>
+        <tr>
+            <td>MP3 grande</td>
+            <td>30GB / 80GB</td>
+            <td>7,500 canciones / 20,000 canciones</td>
+            <td>6cm (diagonal)</td>
+            <td>4 horas</td>
+            <td>2 horas</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
+    
